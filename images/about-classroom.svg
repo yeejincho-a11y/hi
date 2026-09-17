@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect x="0" y="0" width="400" height="300" fill="#f4f6f9"/>
+  <rect x="30" y="30" width="340" height="160" rx="10" fill="#0b2545"/>
+  <rect x="46" y="46" width="308" height="128" rx="4" fill="#123a63"/>
+  <text x="200" y="100" font-family="Georgia, serif" font-size="22" text-anchor="middle" fill="#f2a900">Mahidol Math Graduates</text>
+  <text x="200" y="135" font-family="Georgia, serif" font-size="18" text-anchor="middle" fill="#ffffff">Teaching since 2015</text>
+  <!-- rows of desks -->
+  <rect x="40" y="210" width="60" height="30" rx="4" fill="#d7dce3"/>
+  <rect x="120" y="210" width="60" height="30" rx="4" fill="#d7dce3"/>
+  <rect x="200" y="210" width="60" height="30" rx="4" fill="#d7dce3"/>
+  <rect x="280" y="210" width="60" height="30" rx="4" fill="#d7dce3"/>
+  <circle cx="70" cy="255" r="14" fill="#f0c29a"/>
+  <circle cx="150" cy="255" r="14" fill="#f0c29a"/>
+  <circle cx="230" cy="255" r="14" fill="#f0c29a"/>
+  <circle cx="310" cy="255" r="14" fill="#f0c29a"/>
+</svg>

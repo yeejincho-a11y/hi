@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <rect x="4" y="4" width="112" height="112" rx="16" fill="#f4f6f9"/>
+  <rect x="4" y="4" width="112" height="112" rx="16" fill="none" stroke="#1565c0" stroke-width="2" opacity="0.25"/>
+  <text x="60" y="66" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700"
+        text-anchor="middle" fill="#0b2545">US</text>
+  <text x="60" y="90" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600"
+        text-anchor="middle" fill="#f2a900">MATH</text>
+</svg>
