@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tier 1 Tutoring School | Contact</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="Tier 1 logo" />
+        <span class="logo-text">TIER <span>1</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <section class="page-banner">
+    <h1>Contact Us</h1>
+    <p>Questions about courses, schedules or trial lessons? Get in touch.</p>
+  </section>
+
+  <section>
+    <div class="section-inner">
+      <div class="contact-wrap">
+
+        <div class="contact-info-card">
+          <h3>Get In Touch</h3>
+
+          <div class="contact-info-item">
+            <img src="images/icon-phone.svg" alt="Phone icon" />
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:0891234567">089-123-4567</a>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <img src="images/icon-email.svg" alt="Email icon" />
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:info@tier1.com">info@tier1.com</a>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <img src="images/icon-location.svg" alt="Location icon" />
+            <div>
+              <strong>Learning Centre</strong>
+              <p>Tier 1 Tutoring School, Bangkok, Thailand</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <img src="images/icon-phone.svg" alt="Hours icon" style="opacity:0.85;" />
+            <div>
+              <strong>Office Hours</strong>
+              <p>Mon &ndash; Sat, 9:00 AM &ndash; 6:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3 style="color: var(--navy); margin-bottom: 6px;">Send Us a Message</h3>
+          <p style="color: var(--gray-text); font-size: 14px;">We usually reply within one business day.</p>
+
+          <form id="contactForm">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" />
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" />
+
+            <label for="course">Course of Interest</label>
+            <select id="course" name="course">
+              <option value="">Select a course (optional)</option>
+              <option value="UK Math">UK Math</option>
+              <option value="US Math">US Math</option>
+              <option value="IGCSE">IGCSE</option>
+              <option value="A-Level">A-Level</option>
+              <option value="SAT">SAT</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us about your child's or your own math learning goals..."></textarea>
+
+            <div style="margin-top: 20px;">
+              <button type="submit" class="btn btn-primary" style="background-color: var(--navy); color:#fff;">Send Message</button>
+            </div>
+
+            <p id="formMsg" class="form-msg"></p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <h4>Tier 1 Tutoring School</h4>
+        <p>Helping students of all ages master mathematics, from primary school through university and beyond.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="career.html">Career</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Phone: 089-123-4567</li>
+          <li>Email: info@tier1.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> Tier 1 Tutoring School. This is an example website built for a web design class.
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
